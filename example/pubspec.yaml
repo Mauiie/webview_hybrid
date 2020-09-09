@@ -9,14 +9,14 @@ dependencies:
     sdk: flutter
   webview_flutter:
     path: ../
+  android_intent: ^0.3.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_driver:
     sdk: flutter
-#  integration_test:
-#    path: ../../integration_test
+
   pedantic: ^1.8.0
 
 flutter:

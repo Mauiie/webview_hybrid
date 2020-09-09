@@ -13,6 +13,7 @@ import io.flutter.embedding.engine.FlutterEngine;
 @Keep
 public final class GeneratedPluginRegistrant {
   public static void registerWith(@NonNull FlutterEngine flutterEngine) {
+    flutterEngine.getPlugins().add(new io.flutter.plugins.androidintent.AndroidIntentPlugin());
     flutterEngine.getPlugins().add(new io.flutter.plugins.webviewflutter.WebViewFlutterPlugin());
   }
 }
